@@ -23,7 +23,7 @@ const Cocktails = () => {
         .from("#c-right-leaf", {
             x: 100, y: 100
         })
-    })
+    }, [])
 
   return (
     <section id='cocktails' className='noisy'>
